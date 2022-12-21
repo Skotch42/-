@@ -1,0 +1,9 @@
+int abcd,b;
+
+read(abcd);
+read(b);
+
+write(abcd - b);
+write(abcd + b);
+write(abcd * b);
+write(abcd / b);

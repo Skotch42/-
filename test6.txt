@@ -1,0 +1,15 @@
+int i,j,size,temp;
+array arr[2];
+i = 5;
+j = 6;
+
+
+
+            if (i > j) 
+            {
+                write(i);
+            }
+            else
+            {
+            write(j);
+            }

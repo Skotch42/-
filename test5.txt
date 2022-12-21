@@ -1,0 +1,30 @@
+int i,j,size,temp;
+array arr[100];
+i = 0; j = 0;
+
+read(size);
+
+while (i < size) {
+    read(arr[i]);
+    i = i + 1;
+}
+
+i = 0;
+while (i < size - 1) {
+        j = 0;
+        while (j < size - i - 1) {
+            if (arr[j] > arr[j + 1]) {
+                temp = arr[j];
+                arr[j] = arr[j + 1];
+                arr[j + 1] = temp;
+            }
+            j = j + 1;
+        }
+        i = i + 1;
+    }
+i = 0;
+
+while (i < size) {
+    write(arr[i]);
+    i = i + 1;
+}
